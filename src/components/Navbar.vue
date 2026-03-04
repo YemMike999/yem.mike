@@ -58,15 +58,16 @@
 
             <!-- ✅ Download CV -->
             <li class="nav-item mx-2" v-if="resume">
-              <a
-                class="nav-link"
-                :href="resume"
-                download="Yem-Mike-CV.pdf"
-                title="Download CV"
-              >
-                <i class="fas fa-download mr-1"></i> CV
-              </a>
-            </li>
+  <a
+    class="nav-link"
+    :href="resume"
+    target="_blank"
+    rel="noopener"
+    title="View CV"
+  >
+    <i class="fas fa-download mr-1"></i> CV
+  </a>
+</li>
 
             <!-- Language Switch (UI only) -->
 

@@ -62,13 +62,14 @@
 
           <!-- RESUME -->
           <a
-            v-if="links.resume"
-            class="btn-accent"
-            :href="links.resume"
-            download
-          >
-            Download Resume
-          </a>
+  v-if="links.resume"
+  class="btn-accent"
+  :href="links.resume"
+  target="_blank"
+  rel="noopener"
+>
+  Download Resume
+</a>
 
         </div>
       </div>
